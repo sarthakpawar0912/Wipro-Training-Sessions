@@ -25,6 +25,7 @@ class Video {
         this.checkout = true;
     }
 
+
     public void doReturn() {
         this.checkout = false;
     }
@@ -32,6 +33,7 @@ class Video {
     public void receiveRating(int rating) {
         if (rating >= 0 && rating <= 10) {
             this.rating = rating;
+
         }
     }
 
