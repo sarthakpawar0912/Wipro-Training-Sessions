@@ -98,6 +98,7 @@ class VideoStore {
     }
 
     public void listInventory() {
+
         if (store.isEmpty()) {
             System.out.println("Inventory is empty.");
             return;
