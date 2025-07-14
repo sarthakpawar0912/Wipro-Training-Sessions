@@ -48,6 +48,7 @@ class Video {
 }
 
 class VideoStore {
+
     private ArrayList<Video> store;
 
     public VideoStore() {
