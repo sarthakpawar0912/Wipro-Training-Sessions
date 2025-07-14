@@ -103,6 +103,7 @@ class VideoStore {
             System.out.println("Inventory is empty.");
             return;
         }
+
         System.out.println("Video Name | Checkout Status | Rating");
         for (Video v : store) {
             System.out.println(v.getName() + " | " + v.getCheckout() + " | " + v.getRating());
