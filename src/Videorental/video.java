@@ -113,7 +113,9 @@ class VideoStore {
 
 class VideoLauncher {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
+
         VideoStore store = new VideoStore();
         int choice;
 
