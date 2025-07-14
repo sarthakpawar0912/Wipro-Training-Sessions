@@ -20,6 +20,7 @@ class Video {
         return videoName;
     }
 
+
     public void doCheckout() {
         this.checkout = true;
     }
