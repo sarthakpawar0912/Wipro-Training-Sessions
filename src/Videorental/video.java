@@ -31,6 +31,7 @@ class Video {
     }
 
     public void receiveRating(int rating) {
+
         if (rating >= 0 && rating <= 10) {
             this.rating = rating;
 
