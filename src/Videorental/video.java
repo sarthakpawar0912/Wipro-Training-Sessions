@@ -8,6 +8,7 @@ class Video {
     private boolean checkout;
     private int rating;
 
+
     public Video(String name) {
         this.videoName = name;
         this.checkout = false;

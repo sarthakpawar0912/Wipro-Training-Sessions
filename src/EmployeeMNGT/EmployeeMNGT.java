@@ -1,5 +1,4 @@
 package EmployeeMNGT;
-
 import java.util.Scanner;
 
 public class EmployeeMNGT {
