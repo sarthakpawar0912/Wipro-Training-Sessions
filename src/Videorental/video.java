@@ -15,6 +15,7 @@ class Video {
         this.rating = 0;
     }
 
+
     public String getName() {
         return videoName;
     }
