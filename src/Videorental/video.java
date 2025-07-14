@@ -61,6 +61,7 @@ class VideoStore {
     }
 
     public void doCheckout(String name) {
+
         for (Video v : store) {
             if (v.getName().equalsIgnoreCase(name) && !v.getCheckout()) {
                 v.doCheckout();
