@@ -44,6 +44,7 @@ class Luggage extends Compartment {
 }
 
 class TestCompartment {
+
     public void test() {
         Compartment[] compartments = new Compartment[4];
         Random random = new Random();
