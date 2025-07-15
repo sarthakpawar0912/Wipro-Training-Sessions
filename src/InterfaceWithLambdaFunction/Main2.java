@@ -8,7 +8,6 @@ public class Main2 {
 
         Test t2 = (a, b, c) -> a * b * c;
 
-
         int result1 = t1.myFunction(2, 3, 4);
         int result2 = t2.myFunction(2, 3, 4);
 
