@@ -13,6 +13,7 @@ class FirstClass extends Compartment {
     public String notice() {
         return "This is a First Class compartment.";
     }
+
 }
 
 class Ladies extends Compartment {
