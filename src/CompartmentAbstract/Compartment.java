@@ -4,6 +4,7 @@ import java.util.Random;
 abstract class Compartment {
 
     public abstract String notice();
+
 }
 
 class FirstClass extends Compartment {
