@@ -17,6 +17,7 @@ class FirstClass extends Compartment {
 }
 
 class Ladies extends Compartment {
+
     @Override
     public String notice() {
         return "This is a Ladies compartment.";
