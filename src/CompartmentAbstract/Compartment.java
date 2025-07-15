@@ -2,6 +2,7 @@ package CompartmentAbstract;
 import java.util.Random;
 
 abstract class Compartment {
+
     public abstract String notice();
 }
 
