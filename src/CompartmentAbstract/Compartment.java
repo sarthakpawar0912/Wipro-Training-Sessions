@@ -51,6 +51,7 @@ class TestCompartment {
         Random random = new Random();
 
         for (int i = 0; i < 4; i++) {
+
             int type = random.nextInt(4) + 1;
             switch (type) {
                 case 1:
