@@ -75,6 +75,7 @@ class TestCompartment {
         }
     }
 
+
     public static void main(String[] args) {
         TestCompartment test = new TestCompartment();
         test.test();
