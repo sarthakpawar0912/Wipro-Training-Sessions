@@ -7,5 +7,6 @@ package VehicleInterface;
             VehicleImpl.Car car = new VehicleImpl.Car();
 
             car.message();
+
         }
     }
