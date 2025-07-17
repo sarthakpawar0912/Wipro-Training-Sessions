@@ -24,6 +24,7 @@ public class VehicleImpl {
 
     // Class Car implementing both interfaces
     static class Car implements Vehicle, FourWheeler {
+
         @Override
         public void message() {
             Vehicle.super.message();
