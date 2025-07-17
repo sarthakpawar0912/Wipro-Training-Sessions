@@ -13,6 +13,7 @@ class Fruit {
     }
 
     public void eat() {
+
         System.out.println("Eating " + name + " with a " + taste + " taste.");
     }
 }
