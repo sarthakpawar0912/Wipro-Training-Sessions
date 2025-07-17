@@ -41,6 +41,7 @@ class Orange extends Fruit {
     public void eat() {
         System.out.println("Eating " + name + " with a juicy and tangy " + taste + " taste.");
     }
+
 }
 
 class FruitTest {
