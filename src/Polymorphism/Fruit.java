@@ -47,10 +47,12 @@ class Orange extends Fruit {
 class FruitTest {
 
     public static void main(String[] args) {
+
         Fruit apple = new Apple("Apple", "sweet", 5);
         Fruit orange = new Orange("Orange", "citrus", 6);
 
         apple.eat();
         orange.eat();
+
     }
 }
