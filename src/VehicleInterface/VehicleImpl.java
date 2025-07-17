@@ -16,6 +16,7 @@ public class VehicleImpl {
     interface FourWheeler {
 
         default void message() {
+
             System.out.println("Inside FourWheeler");
         }
     }
