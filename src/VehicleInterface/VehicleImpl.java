@@ -4,6 +4,7 @@ public class VehicleImpl {
 
     //this is Interface 1: Vehicle
     interface Vehicle {
+
         default void message() {
             System.out.println("Inside Vehicle");
         }
