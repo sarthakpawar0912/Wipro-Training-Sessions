@@ -18,6 +18,7 @@ public class VehicleImpl {
         default void message() {
 
             System.out.println("Inside FourWheeler");
+
         }
     }
 
