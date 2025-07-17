@@ -27,7 +27,9 @@ public class VehicleImpl {
 
         @Override
         public void message() {
+
             Vehicle.super.message();
+
             System.out.println("Inside Car");
         }
     }
