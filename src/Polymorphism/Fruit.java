@@ -19,6 +19,7 @@ class Fruit {
 }
 
 class Apple extends Fruit {
+
     public Apple(String name, String taste, int size) {
         super(name, taste, size);
     }
@@ -27,6 +28,7 @@ class Apple extends Fruit {
     public void eat() {
         System.out.println("Eating " + name + " with a sweet and crisp " + taste + " taste.");
     }
+
 }
 
 class Orange extends Fruit {
