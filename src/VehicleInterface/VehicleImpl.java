@@ -1,6 +1,7 @@
 package VehicleInterface;
 
 public class VehicleImpl {
+
     // Interface 1: Vehicle
     interface Vehicle {
         default void message() {
