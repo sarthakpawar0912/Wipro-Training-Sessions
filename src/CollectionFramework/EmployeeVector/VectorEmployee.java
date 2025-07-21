@@ -10,11 +10,9 @@ public class VectorEmployee {
         // Vector for storing Employee
         Vector<Employee> vector = new Vector<>();
 
-
         vector.add(new Employee(1, "Anushka"));
         vector.add(new Employee(2, "sarthak"));
         vector.add(new Employee(3, "Ramkrishna"));
-
 
         System.out.println("Using Iterator:");
         Iterator<Employee> iterator = vector.iterator();
