@@ -1,6 +1,7 @@
 package CollectionFramework.List;
 
 public class EmployeeManagement {
+
     public static void main(String[] args) {
         EmployeeDB db = new EmployeeDB();
 
