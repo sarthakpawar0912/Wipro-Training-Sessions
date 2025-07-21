@@ -15,15 +15,21 @@ public class EmployeeRegister {
 
         // here we will collect employee data
         for (int i = 1; i <= numEmployees; i++) {
+
             System.out.println("Enter Employee " + i + " Details:");
+
             System.out.print("Enter the Firstname: ");
             String firstName = sc.nextLine();
+
             System.out.print("Enter the Lastname: ");
             String lastName = sc.nextLine();
+
             System.out.print("Enter the Mobile: ");
             String mobileNumber = sc.nextLine();
+
             System.out.print("Enter the Email: ");
             String email = sc.nextLine();
+
             System.out.print("Enter the Address: ");
             String address = sc.nextLine();
 
