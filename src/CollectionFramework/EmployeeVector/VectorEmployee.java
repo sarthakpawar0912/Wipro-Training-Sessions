@@ -14,6 +14,7 @@ public class VectorEmployee {
         vector.add(new Employee(2, "sarthak"));
         vector.add(new Employee(3, "Ramkrishna"));
 
+
         System.out.println("Using Iterator:");
         Iterator<Employee> iterator = vector.iterator();
         while (iterator.hasNext()) {
