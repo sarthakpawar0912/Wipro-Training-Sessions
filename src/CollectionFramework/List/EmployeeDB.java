@@ -1,5 +1,4 @@
 package CollectionFramework.List;
-
 import java.util.ArrayList;
 
 public class EmployeeDB {
