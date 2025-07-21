@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class EmployeeRegister {
-    public static void main(String[] args) {
+public class EmployeeRegister { public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
