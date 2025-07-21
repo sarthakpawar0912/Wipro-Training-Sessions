@@ -11,6 +11,7 @@ public class EmployeeRegister {
 
         // here we will get to total numbers of employee
         System.out.print("Enter the Number of Employees: ");
+
         int numEmployees = sc.nextInt();
 
         // here we will collect employee data
