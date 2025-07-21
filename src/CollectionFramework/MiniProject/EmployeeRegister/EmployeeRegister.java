@@ -6,6 +6,8 @@ import java.util.Scanner;
 
 public class EmployeeRegister {
     public static void main(String[] args) {
+
+
         Scanner sc = new Scanner(System.in);
 
         ArrayList<Employee> employeeList = new ArrayList<>();
