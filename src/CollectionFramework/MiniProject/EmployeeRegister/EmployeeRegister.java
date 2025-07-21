@@ -34,7 +34,6 @@ public class EmployeeRegister {
         // sort employees by their first name
         Collections.sort(employeeList, (e1, e2) -> e1.firstName.compareTo(e2.firstName));
 
-
         System.out.println("\nEmployee List:");
         for (Employee emp : employeeList) {
             System.out.format("%-15s %-15s %-15s %-30s %-45s%n", emp.firstName, emp.lastName, emp.mobileNumber, emp.email, emp.address);
