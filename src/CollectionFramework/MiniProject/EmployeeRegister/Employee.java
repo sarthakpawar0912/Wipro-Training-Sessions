@@ -1,6 +1,7 @@
 package CollectionFramework.MiniProject.EmployeeRegister;
 
 public class Employee {
+
     String firstName;
     String lastName;
     String mobileNumber;
