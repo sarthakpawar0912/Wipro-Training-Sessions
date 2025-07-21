@@ -39,6 +39,5 @@ public class EmployeeRegister {
         for (Employee emp : employeeList) {
             System.out.format("%-15s %-15s %-15s %-30s %-45s%n", emp.firstName, emp.lastName, emp.mobileNumber, emp.email, emp.address);
         }
-
     }
 }
