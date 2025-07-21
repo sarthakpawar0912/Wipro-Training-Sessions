@@ -16,7 +16,6 @@ public class Employee {
         this.salary = salary;
     }
 
-
     void getEmployeeDetails() {
         System.out.println("Emp ID: " + empId);
         System.out.println("Name: " + empName);
