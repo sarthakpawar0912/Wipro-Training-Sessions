@@ -16,6 +16,7 @@ public class HareTortoiseRace extends Thread {
     public void run() {
 
         while (distance < RACE_DISTANCE) {
+
             distance++;
             System.out.println(name + " has run " + distance + " meters");
             if (name.equals("Hare") && distance == 60) {
