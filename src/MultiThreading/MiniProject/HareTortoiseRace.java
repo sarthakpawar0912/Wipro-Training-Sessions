@@ -47,6 +47,7 @@ public class HareTortoiseRace extends Thread {
 
         // Start the threads
         hare.start();
+
         tortoise.start();
     }
 }
