@@ -5,6 +5,7 @@ public class HareTortoiseRace extends Thread {
     private String name;
 
     private int distance;
+
     private static final int RACE_DISTANCE = 100;
 
     public HareTortoiseRace(String name) {
