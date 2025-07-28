@@ -14,6 +14,7 @@ public class HareTortoiseRace extends Thread {
     }
 
     public void run() {
+
         while (distance < RACE_DISTANCE) {
             distance++;
             System.out.println(name + " has run " + distance + " meters");
@@ -32,7 +33,7 @@ public class HareTortoiseRace extends Thread {
         HareTortoiseRace hare = new HareTortoiseRace("Hare");
         HareTortoiseRace tortoise = new HareTortoiseRace("Tortoise");
 
-        // Set higher priority for Hare
+
         hare.setPriority(Thread.MAX_PRIORITY);
         tortoise.setPriority(Thread.MIN_PRIORITY);
 
