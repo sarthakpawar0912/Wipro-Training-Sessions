@@ -22,13 +22,17 @@ public class HareTortoiseRace extends Thread {
             System.out.println(name + " has run " + distance + " meters");
 
             if (name.equals("Hare") && distance == 60) {
+
                 try {
                     Thread.sleep(1000); // Hare sleeps for 1000 milliseconds
-                } catch (InterruptedException e) {
+                }
+                catch (InterruptedException e) {
                     e.printStackTrace();
                 }
+
             }
         }
+
         System.out.println(name + " has finished the race!");
     }
 
