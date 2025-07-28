@@ -37,6 +37,7 @@ public class HareTortoiseRace extends Thread {
     }
 
     public static void main(String[] args) {
+
         HareTortoiseRace hare = new HareTortoiseRace("Hare");
         HareTortoiseRace tortoise = new HareTortoiseRace("Tortoise");
 
