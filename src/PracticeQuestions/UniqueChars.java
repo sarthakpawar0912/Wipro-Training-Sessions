@@ -24,7 +24,9 @@ public class UniqueChars {
                 System.out.print(str.charAt(i) + " ");
 
             }
+
         }
+
     }
 
     public static void main(String[] args) {
@@ -32,5 +34,7 @@ public class UniqueChars {
         String input = "abcb";
 
         printUniqueChars(input);
+
     }
+
 }
