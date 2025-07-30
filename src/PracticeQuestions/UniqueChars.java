@@ -30,6 +30,7 @@ public class UniqueChars {
     public static void main(String[] args) {
 
         String input = "abcb";
+
         printUniqueChars(input);
     }
 }
