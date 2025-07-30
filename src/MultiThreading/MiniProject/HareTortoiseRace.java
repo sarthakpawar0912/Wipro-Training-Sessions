@@ -24,7 +24,7 @@ public class HareTortoiseRace extends Thread {
             if (name.equals("Hare") && distance == 60) {
 
                 try {
-                    Thread.sleep(1000); // Hare sleeps for 1000 milliseconds
+                    Thread.sleep(1000); //  sleep for 1000 milliseconds
                 }
                 catch (InterruptedException e) {
                     e.printStackTrace();
