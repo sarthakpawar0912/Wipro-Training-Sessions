@@ -1,6 +1,7 @@
 package PracticeQuestions;
 
 public class UniqueChars {
+
     public static void printUniqueChars(String str) {
         for (int i = 0; i < str.length(); i++) {
             boolean isUnique = true;
