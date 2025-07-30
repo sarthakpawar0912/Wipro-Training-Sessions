@@ -11,8 +11,11 @@ public class UniqueChars {
             for (int j = 0; j < str.length(); j++) {
 
                 if (i != j && str.charAt(i) == str.charAt(j)) {
+
                     isUnique = false;
+
                     break;
+
                 }
             }
             if (isUnique) {
