@@ -18,13 +18,17 @@ public class UniqueChars {
 
                 }
             }
+
             if (isUnique) {
+
                 System.out.print(str.charAt(i) + " ");
+
             }
         }
     }
 
     public static void main(String[] args) {
+
         String input = "abcb";
         printUniqueChars(input);
     }
