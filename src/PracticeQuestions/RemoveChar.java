@@ -15,6 +15,8 @@ public class RemoveChar {
         char toRemove = 'a';
 
         String result = removeChar(input, toRemove);
+
         System.out.println(result);
+
     }
 }
