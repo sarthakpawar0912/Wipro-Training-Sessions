@@ -19,4 +19,5 @@ public class RemoveChar {
         System.out.println(result);
 
     }
+
 }
