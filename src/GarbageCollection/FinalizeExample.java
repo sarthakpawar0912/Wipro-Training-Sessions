@@ -35,6 +35,7 @@ public class FinalizeExample {
         // Sleep to allow GC to run (not guaranteed)
         try {
             Thread.sleep(1000);
+
         } catch (InterruptedException e) {
 
             e.printStackTrace();
